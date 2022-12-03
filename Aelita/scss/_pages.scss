@@ -30,11 +30,38 @@ body {
 	top: 0;
 	width: 100%;
 	z-index: 1000;
+
+	background: rgba(0, 0, 0, 0);
+	backdrop-filter: blur(5px);
+	box-shadow: 0px -10px 20px orange;
 }
 .header__inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.header__logo {
+	h1 {
+		background: url(../img/NRI0.gif) no-repeat right;
+		background-size: cover;
+
+		color: orange;
+
+		transition: 0.5s;
+
+		span {
+			margin-left: 5px;
+			font-weight: 700;
+			font-size: 32px;
+			color: red;
+
+			font-family: "PermanentMarker";
+		}
+
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
 }
 .nav__item {
 	display: flex;
@@ -88,9 +115,15 @@ body {
 
 	color: #f0e3ca;
 }
-.author__imgs {
-}
+
 .author__img {
+	background: url(../img/codepicture.png) center no-repeat;
+	background-size: cover;
+	padding: 50px 80px;
+
+	img {
+		width: 400px;
+	}
 }
 
 // ! section 1
