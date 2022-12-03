@@ -18,7 +18,7 @@ body {
 	padding: 0 15px;
 	margin: 0 auto;
 }
- 
+
 // ========================================================================================
 // ! header
 .header {
@@ -122,6 +122,8 @@ body {
 	padding: 50px 80px;
 
 	img {
+		position: relative;
+		left: -70px;
 		width: 400px;
 	}
 }
