@@ -278,3 +278,99 @@ body {
 		}
 	}
 }
+
+// ! footer
+.footer {
+	margin: 70px 0;
+	.content {
+		display: flex;
+		justify-content: center;
+	}
+	.header__logo {
+		margin-bottom: 20px;
+		h1 {
+			background: url(../img/NRI0.gif) no-repeat right;
+			background-size: cover;
+
+			color: orange;
+
+			transition: 0.5s;
+
+			span {
+				margin-left: 5px;
+				font-weight: 700;
+				font-size: 32px;
+				color: red;
+
+				font-family: "PermanentMarker";
+			}
+
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+	.text {
+		max-width: 230px;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 21px;
+		color: #f0e3ca;
+	}
+	.right {
+		max-width: 400px;
+		margin-left: 65px;
+		.info {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 34px;
+
+			color: #ff8303;
+			margin-bottom: 20px;
+		}
+		.contact {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.first {
+				width: 300px;
+			}
+			.second {
+				width: 200px;
+			}
+
+			.link {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 25px;
+
+				color: #ff8303;
+				background-size: cover;
+				display: inline-block;
+				width: 100%;
+				// height: 35px;
+				margin: 15px 0;
+			}
+			.email {
+				background: url(../img/email.svg) left no-repeat;
+				padding-left: 37px;
+			}
+			.git {
+				background: url(../img/git.svg) left no-repeat;
+				padding-left: 37px;
+			}
+			.insta {
+				background: url(../img/insta.svg) left no-repeat;
+				padding-left: 37px;
+			}
+			.figma {
+				background: url(../img/figma.svg) left no-repeat;
+				padding-left: 37px;
+			}
+		}
+	}
+}
