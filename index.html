@@ -9,7 +9,7 @@
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<div class="wrapper">
+		<div class="wrapper" id="particles-js">
 			<header class="header">
 				<div class="header__top">
 					<div class="header__scroll">
@@ -22,22 +22,26 @@
 								</div>
 								<nav class="header__nav">
 									<ul class="nav__item">
-										<li class="nav__link">about me</li>
-										<li class="nav__link">Skills</li>
-										<li class="nav__link">pet-projects</li>
-										<li class="nav__link">contacts</li>
+										<a data-scroll="#about" href="#"><li class="nav__link">about me</li></a>
+										<a data-scroll="#skills" href="#"><li class="nav__link">Skills</li></a>
+										<a data-scroll="#projects" href="#"
+											><li class="nav__link">projects</li></a
+										>
+										<a data-scroll="#contacts" href="#"><li class="nav__link">contacts</li></a>
 									</ul>
 								</nav>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="header__body">
+				<div class="header__body" id="about">
 					<div class="container">
 						<div class="header__body__content">
 							<div class="author__date">
 								<h1 class="author__name">Aelita Jelden</h1>
-								<p class="author__spec">Senior SDET Engineer</p>
+								<p class="author__spec">
+									<span class="typing"> </span>
+								</p>
 								<p class="author__info">
 									SDET engineer from KG <br />
 									who really believes in big and light future
@@ -57,17 +61,15 @@
 						<div class="content">
 							<img src="./Aelita/img/logo2.svg" alt="" />
 							<p>
-								A few years ago, I became interested in developing websites and
-								interfaces. Since then, I have been steadily improving my
-								skills. Now I am developing websites and web applications to
-								order or for myself.
+								A few months ago, I became interested in developing websites. Since then, I have been steadily improving my
+								skills. Now I am developing websites to order or for myself.
 							</p>
 						</div>
 					</div>
 				</section>
 
 				<!-- ! section 2 -->
-				<section class="block__three">
+				<section class="block__three" id="skills">
 					<div class="container">
 						<div class="content">
 							<p class="title">My Skills</p>
@@ -98,7 +100,7 @@
 				</section>
 
 				<!-- ! section 4 -->
-				<section class="block__four">
+				<section class="block__four" id="projects">
 					<div class="container">
 						<div class="content">
 							<p class="content__title">My Works</p>
@@ -134,11 +136,11 @@
 				</section>
 			</main>
 
-			<footer class="footer">
+			<footer class="footer" id="contacts">
 				<div class="container">
 					<div class="content">
 						<div class="left">
-							<div class="header__logo">
+							<div class="header__logo-footer">
 								<a href="#">
 									<h1>Aelita<span>J</span></h1>
 								</a>
@@ -175,5 +177,10 @@
 				</div>
 			</footer>
 		</div>
+		<script src="./Aelita/js/jquery-3.6.1.min.js"></script>
+		<script src="./Aelita/js/particles.min.js"></script>
+		<script src="./Aelita/js/settings.particle.js"></script>
+		<script src="./Aelita/js/typed.min.js"></script>
+		<script src="./Aelita/js/script.js"></script>
 	</body>
 </html>
