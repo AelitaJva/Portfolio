@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+	.nav__item {
+		display: none;
+	}
+}
+@media (max-width: 1100px) {
+	.header__body__content {
+		flex-direction: column-reverse;
+	}
+	.block__four {
+		.boxes {
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+	}
+}
+@media (max-width: 1065px) {
+	.block__three {
+		.content {
+			.boxes {
+				flex-wrap: wrap;
+				justify-content: space-around;
+			}
+			.box {
+				margin: 10px;
+			}
+		}
+	}
+}
+@media (max-width: 630px) {
+	.footer {
+		.content {
+			flex-wrap: wrap;
+		}
+		.left {
+			margin-bottom: 30px;
+		}
+		.right {
+			.contact {
+				flex-wrap: wrap;
+			}
+		}
+	}
+}
