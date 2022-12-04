@@ -27,13 +27,52 @@
 		}
 	}
 }
+
 @media (max-width: 630px) {
+	.author__img {
+		background: url(../img/codepicture.png) center no-repeat;
+		background-size: cover;
+		padding: 10px 30px;
+
+		img {
+			position: relative;
+			left: 0;
+			width: 300px;
+		}
+	}
+
+	.block__four {
+		margin: 30px 0;
+	}
 	.footer {
+		margin: 30px 0;
 		.content {
 			flex-wrap: wrap;
+			justify-content: flex-start;
+			margin: 0 auto;
+			max-width: 300px;
+		}
+		.header__logo-footer {
+			text-align: center;
+		}
+		.text {
+			max-width: 100%;
 		}
 		.left {
 			margin-bottom: 30px;
+		}
+		.info {
+			text-align: center;
+		}
+		.right {
+			max-width: 100%;
+			margin: 0;
+		}
+		.first {
+			width: 100%;
+		}
+		.second {
+			width: 100%;
 		}
 		.right {
 			.contact {
