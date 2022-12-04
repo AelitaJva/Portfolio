@@ -29,11 +29,15 @@
 }
 
 @media (max-width: 630px) {
-  .header {
-    .header__body {
-      margin: 30px 0;
-    }
-  }
+	.header {
+		.header__body {
+			margin: 100px 0 20px 0;
+		}
+	}
+	.author__name {
+		text-align: center;
+		font-size: 50px;
+	}
 	.author__img {
 		background: url(../img/codepicture.png) center no-repeat;
 		background-size: cover;
